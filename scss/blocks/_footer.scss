@@ -1,0 +1,130 @@
+
+/* main finish */
+
+/* footer start  */
+.sait-footer {
+    padding: 54px 0 69px 0;
+    background: #F3F3F3;
+    border: 1px solid #EBEBEB;
+}
+.sait-footer__wrapper {
+    display: flex;
+}
+.sait-footer__logo {
+    margin-right: 67px;
+}
+.sait-footer__list {
+    margin-top: 0;
+    margin-right: 87px;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.sait-footer__list:hover {
+    color: var(--main-link-color);
+}
+.sait-footer__list:active {
+    color: var(--main-title-color);
+    opacity: 0.6;
+}
+.sait-footer__item {
+    margin-bottom: 16px;
+}
+.sait-footer__item:nth-child(3) {
+    margin-bottom: 0;
+}
+.sait-footer__list--first {
+    margin-top: 0;
+    margin-right: 111px;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.sait-footer__link:hover {
+    color: var(--main-link-color);
+}
+.sait-footer__link:active {
+    color: var(--main-title-color);
+    opacity: 0.6;
+}
+.sait-footer__info {
+    position: relative;
+    width: 157px;
+    margin-right: 109px;
+}
+.sait-footer__info::before {
+    position: absolute;
+    top: -20px;
+    left: -25px;
+    width: 35px;
+    height: 35px;
+    background-image: url("../imges/house.svg");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: calc(50% - 10px) calc(50% + 10px);
+    content: "";
+}
+.sait-footer__list--data {
+    position: relative;
+    margin-top: 0;
+    margin-right: 138px;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.sait-footer__list--data::before {
+    position: absolute;
+    top: -19px;
+    left: -30px;
+    width: 35px;
+    height: 37px;
+    background-image: url("../imges/kalendar.svg");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: calc(50% - 10px) calc(50% + 10px);
+    content: "";
+}
+.sait-footer__text {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: var(--main-text-weight);
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--main-title-color);
+}
+.sait-footer__subtext {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: var(--main-text-weight);
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--main-title-color);
+}
+.sait-footer__list--tel {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.sait-footer__list--tel::before {
+    position: absolute;
+    top: -20px;
+    left: -30px;
+    width: 35px;
+    height: 35px;
+    background-image: url("../imges/phone.svg");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: calc(50% - 10px) calc(50% + 10px);
+    content: "";
+}
+.sait-footer__link{ 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+}
+
+
+/* footer finish */

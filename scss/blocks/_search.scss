@@ -1,0 +1,44 @@
+.search {
+    padding-top: 250px;
+    padding-bottom: 206px;
+}
+.search__wrapper {
+    margin: 0 auto;
+
+}
+.search__info {
+    display: flex;
+    justify-content: center;
+}
+
+.search__title {
+    position: relative;
+    font-weight: var(--main-title-weight);
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    color: var( --main-title-color);
+}
+.search__title::before {
+    position: absolute;
+    top: calc(50% - 300px);
+    left: calc(50% - 270px);
+    width: 940px;
+    height: 330px;
+    background-image: url("../../imges/lope.svg");
+    background-repeat: no-repeat;
+    content:"";
+}
+.search__location {
+    position: relative;
+}
+.search__location::before {
+    position: absolute;
+    top: calc(50% - 532px);
+    left: 0;
+    width: 443px;
+    height: 342px;
+    background-image: url("../../imges/locatindog.svg");
+    background-repeat: no-repeat;
+    content: "";
+}

@@ -1,0 +1,116 @@
+.hero {
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.hero__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.hero__subinfo {
+    width: 447px;
+}
+.hero__title {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-style: normal;
+    font-weight: var(--main-title-weight);
+    font-size: 70px;
+    line-height: 64px;
+    color: var(--main-title-color);   
+}
+.hero__text {
+    margin-top: 0;
+    margin-bottom: 220px;
+    font-weight: var(--main-smoll-weight);
+    font-size: 16px;
+    line-height: 20px;
+    color:var(--main-text-color);
+}
+.hero__address {
+    display: flex;
+}
+.hero__locatin {
+    width: 153px;
+}
+.hero__url {
+    position: relative;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;   
+    font-style: normal;
+    color: #333333;
+}
+.hero__url::before {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 73px;
+    height: 73px;
+    background-image: url("../../imges/location.svg");
+    background-repeat: no-repeat;
+    content: "";
+}
+.hero__data {
+    position: relative;
+    margin: 0 118px;
+}
+.hero__data::before {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 77px;
+    height: 73px;
+    background-image: url("../../imges/calendar.svg");
+    background-repeat: no-repeat;
+    content: "";
+}
+.hero__time {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-style: normal;
+}
+.hero__subtime {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: normal;
+}
+.hero__bold {
+    
+}
+.hero__tel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero__tel::before {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 77px;
+    height: 73px;
+    background-image: url("../../imges/linktel.svg");
+    background-repeat: no-repeat;
+    content: "";
+}
+.hero__link {
+    margin-bottom: 9px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: right;
+    color: #333333;
+}
+.hero__last {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: right;
+    color: #333333;
+}

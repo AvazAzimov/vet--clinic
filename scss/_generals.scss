@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family:'FuturaPT-Medium';
+    background-image: url("../imges/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--main-bodybgcolor);
+    overflow-x: hidden;
+}
+a {
+    display: block;
+    text-decoration: none;
+}

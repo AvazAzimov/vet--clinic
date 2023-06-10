@@ -1,0 +1,132 @@
+.subhero {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.subhero__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.subhero__subinfo {
+    width: 560px;
+}
+.subhero__title {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-style: normal;
+    font-weight: var(--main-title-weight);
+    font-size: 70px;
+    line-height: 64px;
+    color: var(--main-title-color);   
+}
+.subhero__text {
+    margin-top: 0;
+    margin-bottom:0;
+    font-weight: var(--main-smoll-weight);
+    font-size: 16px;
+    line-height: 20px;
+    color:var(--main-text-color);
+}
+.subhero__address {
+    display: flex;
+}
+.subhero__locatin {
+    width: 153px;
+}
+.subhero__url {
+    position: relative;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;   
+    font-style: normal;
+    color: #333333;
+}
+.subhero__url::before {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 73px;
+    height: 73px;
+    background-image: url("../../imges/location.svg");
+    background-repeat: no-repeat;
+    content: "";
+}
+.subhero__data {
+    position: relative;
+    margin: 0 118px;
+}
+.subhero__data::before {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 77px;
+    height: 73px;
+    background-image: url("../../imges/calendar.svg");
+    background-repeat: no-repeat;
+    content: "";
+}
+.subhero__time {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-style: normal;
+}
+.subhero__subtime {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: normal;
+}
+.subhero__bold {
+    
+}
+.subhero__tel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subhero__tel::before {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 77px;
+    height: 73px;
+    background-image: url("../../imges/linktel.svg");
+    background-repeat: no-repeat;
+    content: "";
+}
+.subhero__link {
+    margin-bottom: 9px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: right;
+    color: #333333;
+}
+.subhero__last {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: right;
+    color: #333333;
+}
+.subhero__link {
+    display: inline-block;
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    padding: 15px 38px;
+    font-weight: var(--main-text-weight);
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--main-secion-color);
+    text-align: center;
+    background-color: #78c0de;
+    border-radius: 3px;
+    
+    
+}

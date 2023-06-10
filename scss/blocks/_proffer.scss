@@ -1,0 +1,119 @@
+.proffer {
+    margin: 0 auto;
+    padding-bottom: 265px;
+}
+.proffer__title {
+    margin-top: 0;
+    margin-bottom: 80px;
+    text-align: center;
+    font-weight: var(--main-title-weight);
+    font-size: 48px;
+    line-height: 20px;
+    color: var(--main-title-color);
+}
+.proffer__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 116px;
+    padding-left: 0;
+    list-style: none;
+    
+}
+.proffer__item {
+    width: 305px;
+    margin-bottom: 60px;
+    background-color: #fefefe;
+    border: 1px solid #e4e4e2;
+    border-radius: 5px;
+}
+.proffer__item:nth-child(5) {
+    margin-bottom: 0;
+}
+.proffer__item:nth-child(6) {
+    margin-bottom: 0;
+}
+.proffer__item:nth-child(7) {
+    margin-bottom: 0;
+}
+.proffer__item:nth-child(8) {
+    margin-bottom: 0;
+}
+.proffer__item:hover {
+    
+    border: 1px solid #e4e4e2;
+    border-radius: 5px;
+}
+
+.proffer__img {
+    background-size: cover;
+}
+.proffer__info {
+    padding: 20px 30px 37px 30px;
+}
+.proffer__time {
+    margin-left: 174px;
+    font-weight: var(--main-text-weight);
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--main-text-color);
+}
+.proffer__sub {
+    width: 182px;
+}
+.proffer__subtitle {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: var(--main-title-weight);
+    font-size: 22px;
+    line-height: 25px;
+    color: #000;
+}
+.proffer__subtext {
+    margin-top: 0;
+    margin-bottom: 37px;
+    font-weight: var(--main-text-weight);
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--main-text-color);
+}
+.proffer__link {
+    position: relative;
+    margin-left: 28px;
+    font-weight: var(--main-text-weight);
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--main-title-color);
+}
+.proffer__link:hover {
+    color: var(--main-link-color);
+}
+.proffer__link:active {
+    color: var(--main-title-color);
+    opacity: 0.6;
+}
+.proffer__link::before {
+    position: absolute;
+    top: -5px;
+    left: -35px;
+    width: 25px;
+    height: 25px;
+    background-image: url("../imges/pet.svg");
+    background-repeat: no-repeat;
+    content: "";
+}
+.proffer__btn {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 16px 40px;
+    background-color: var(--main-title-color);
+    border-radius: 3px;
+    font-weight: var(--main-text-weight);
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: var(--main-secion-color);
+}
